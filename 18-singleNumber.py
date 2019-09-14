@@ -24,3 +24,6 @@ class Solution(object):
         return result;
     def singleNumber(self, nums):
         return sum(set(nums))*2 - sum(nums);
+
+aa = Solution();
+print(aa.singleNumber([4,1,2,1,2]));
